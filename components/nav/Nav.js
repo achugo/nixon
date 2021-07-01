@@ -37,8 +37,6 @@ const Wrapper = styled.nav`
     text-align: left;
     top: 0;
     height: 100vh;
-    /* top: 0; */
-    /* display: block; */
     transition: linear all 0.3s;
     /* opacity: 0.5; */
     //   background-image: url("../../assets/images/floater.svg");
