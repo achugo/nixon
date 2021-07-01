@@ -1,0 +1,64 @@
+@font-face {
+  font-family: "Hk Grotesk Regular";
+  src: url("../fonts/HKGrotesk-Regular.woff");
+}
+
+@font-face {
+  font-family: "Hk Grotesk Bold";
+  src: url("../fonts/HKGrotesk-Bold.woff");
+}
+
+.container {
+  padding-left: 15vw;
+  padding-right: 15vw;
+  max-width: 2500px;
+  margin: 0px auto;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+.padLeftContainer {
+  padding-left: 15vw;
+}
+
+@media screen and (max-width: 768px) {
+  .padLeftContainer {
+    padding-left: 15px;
+  }
+}
+
+.padRightContainer {
+  padding-right: 15vw;
+}
+
+@media screen and (max-width: 768px) {
+  .padRightContainer {
+    padding-right: 15px;
+  }
+}
+
+.marginLeftContainer {
+  margin-left: 15vw;
+}
+
+@media screen and (max-width: 768px) {
+  .marginLeftContainer {
+    margin-left: 15px;
+  }
+}
+
+.marginRightContainer {
+  margin-right: 15vw;
+}
+
+@media screen and (max-width: 768px) {
+  .marginRightContainer {
+    margin-right: 15px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
