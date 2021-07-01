@@ -164,7 +164,6 @@ export default function Nav() {
                 {" "}
                 <Link href="/contact">Contact</Link>
               </p>
-              {/* <p>Post a request</p> */}
             </div>
           </div>
         </div>
