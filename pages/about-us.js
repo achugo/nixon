@@ -6,6 +6,7 @@ import Aboutsection1 from "../UI/organisms/about-section/Aboutsection1";
 import Aboutsection2 from "../UI/organisms/about-section/Aboutsection2";
 import Aboutsection3 from "../UI/organisms/about-section/Aboutsection3";
 import Services from "../UI/organisms/services/Services";
+import Team from "../UI/organisms/teams/Team";
 import WhyChoseUs from "../UI/organisms/who-chose-us/WhyChoseUs";
 
 const Wrapper = styled.div`
@@ -22,6 +23,7 @@ const Aboutpage = () => {
       <Aboutsection1 />
       <Aboutsection2 />
       <Aboutsection3 />
+      <Team />
     </Layout>
   );
 };

@@ -70,8 +70,10 @@ const Billing = () => {
               </FixedFlexItem>
               <FixedFlexItem flex={20}>
                 <Content>
-                  <span>Single cargo billing</span>: <br /> Intra-city N1,000
-                  depending on distance from <br /> Pick-off and Drop-off Point
+                  <span>Discounted Billing:</span>: <br /> We offer discounted
+                  billing rates for our <br /> frequent customers and bulk
+                  merchants <br />
+                  Our Customer Care lines for attractive offers
                 </Content>
               </FixedFlexItem>
             </FlexWrapper>

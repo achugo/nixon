@@ -47,12 +47,16 @@ const AppImage = styled.img`
 
 const RightSection = styled.div`
   background: url("/assets/png/ovalbg.png");
-  height: 70vh;
+  height: 68vh;
   width: 50vw;
   min-height: 50vh;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+
+  @media screen and (min-width: 1600px) {
+    height: 70vh;
+  }
 
   @media screen and (max-width: 768px) {
     background: ${AppColors.primary};

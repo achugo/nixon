@@ -86,31 +86,26 @@ const Services = () => {
                     service="Regular Delivery"
                     bracket={`(24hr & Same-day Services)`}
                   >
-                    To have your items delivered the <br /> same day, contact us
-                    before 3 PM <br /> Mondays to Saturdays to schedule <br />
-                    an express pick-up.
+                    To have your items delivered the same day, contact us before
+                    3 PM Mondays to Saturdays to schedule an express pick-up.
                   </Service>
                 </AlignRight>
 
                 <AlignRight>
                   <Service
-                    service="Regular Delivery"
-                    bracket={`(24hr & Same-day Services)`}
+                    service="Express Delivery"
+                    bracket={`(PrioritySame Day Service)`}
                   >
-                    To have your items delivered the <br /> same day, contact us
-                    before 3 PM <br /> Mondays to Saturdays to schedule <br />
-                    an express pick-up.
+                    To have your items delivered on priority basis, contact us
+                    2-3hrs before the expected delivery timing
                   </Service>
                 </AlignRight>
 
                 <AlignRight>
-                  <Service
-                    service="Regular Delivery"
-                    bracket={`(24hr & Same-day Services)`}
-                  >
-                    To have your items delivered the <br /> same day, contact us
-                    before 3 PM <br /> Mondays to Saturdays to schedule <br />
-                    an express pick-up.
+                  <Service service="" bracket={`Bulk Delivery (Bulk Mail)`}>
+                    We’ll deliver your Bulk Mails such as Office mails,
+                    Invitations to events or special occasions, group attires
+                    such as Calendars, Aso-Ebi, Souvenirs & Special Packages
                   </Service>
                 </AlignRight>
               </FlexItem>
@@ -122,8 +117,9 @@ const Services = () => {
               <FlexItem flex={1}>
                 <AlignLeft>
                   <Service
-                    service="Regular Delivery"
-                    bracket={`(24hr & Same-day Services)`}
+                    service="Gift Delivery
+                   "
+                    bracket={`(Customized Packages)`}
                   >
                     To have your items delivered the <br /> same day, contact us
                     before 3 PM <br /> Mondays to Saturdays to schedule <br />
@@ -133,23 +129,24 @@ const Services = () => {
 
                 <AlignLeft>
                   <Service
-                    service="Regular Delivery"
-                    bracket={`(24hr & Same-day Services)`}
+                    service="Dedicated Service 
+                   "
+                    bracket={`(Frequent Delivery)`}
                   >
-                    To have your items delivered the <br /> same day, contact us
-                    before 3 PM <br /> Mondays to Saturdays to schedule <br />
-                    an express pick-up.
+                    We can have a bike and rider dedicated to your operations if
+                    you generate a large volume of cargo traffic, ensuring that
+                    your delivery needs are met promptly.
                   </Service>
                 </AlignLeft>
 
                 <AlignLeft>
                   <Service
-                    service="Regular Delivery"
-                    bracket={`(24hr & Same-day Services)`}
+                    service="Prospective Investors
+               "
+                    bracket={`(Partners)`}
                   >
-                    To have your items delivered the <br /> same day, contact us
-                    before 3 PM <br /> Mondays to Saturdays to schedule <br />
-                    an express pick-up.
+                    We can manage your bikes for profit margins, with bike
+                    maintenance also covered (Terms & Conditions apply).
                   </Service>
                 </AlignLeft>
               </FlexItem>

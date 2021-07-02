@@ -57,37 +57,33 @@ const WhyChoseUs = () => {
                 <Image src="/assets/svg/responsiveness.svg" alt="responsive" />
               </SvgWrap>
               <SubHeader color={AppColors.black}>Responsiveness</SubHeader>
-              <Text color={AppColors.ash}>
-                Our value propositions as top-rated logistics operators are:
-              </Text>
+              <Text color={AppColors.ash}>Flexible delivery schedule</Text>
             </Wrap>
           </FlexItem>
           <FlexItem flex={1}>
             <Wrap>
               <SvgWrap>
-                <Image src="/assets/svg/responsiveness.svg" alt="responsive" />
+                <Image src="/assets/svg/convenience.svg" alt="responsive" />
               </SvgWrap>
-              <SubHeader color={AppColors.black}>Responsiveness</SubHeader>
-              <Text color={AppColors.ash}>
-                Our value propositions as top-rated logistics operators are:
-              </Text>
+              <SubHeader color={AppColors.black}>Convenience</SubHeader>
+              <Text color={AppColors.ash}>Cost-effectiveness</Text>
             </Wrap>
           </FlexItem>
           <FlexItem flex={1}>
             <Wrap>
               <SvgWrap>
-                <Image src="assets/svg/responsiveness.svg" alt="responsive" />
+                <Image src="assets/svg/costeffective.svg" alt="responsive" />
               </SvgWrap>
-              <SubHeader color={AppColors.black}>Responsiveness</SubHeader>
+              <SubHeader color={AppColors.black}>Assurance</SubHeader>
               <Text color={AppColors.ash}>
-                Our value propositions as top-rated logistics operators are:
+                Insurance cover for personnel & cargo
               </Text>
             </Wrap>
           </FlexItem>
           <FlexItem flex={1}>
             <Wrap>
               <SvgWrap>
-                <Image src="/assets/svg/responsiveness.svg" alt="responsive" />
+                <Image src="/assets/svg/assurance.svg" alt="responsive" />
               </SvgWrap>
               <SubHeader color={AppColors.black}>Responsiveness</SubHeader>
               <Text color={AppColors.ash}>

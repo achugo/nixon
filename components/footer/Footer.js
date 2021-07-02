@@ -73,18 +73,18 @@ const Footer = () => {
               <Wrap>
                 <FooterHeader color={AppColors.white}>Product</FooterHeader>
                 <Text color={AppColors.light}>Nixon App</Text>
-                <Text color={AppColors.light}>Nixon App</Text>
-                <Text color={AppColors.light}>Nixon App</Text>
-                <Text color={AppColors.light}>Nixon App</Text>
+                <Text color={AppColors.light}>Services</Text>
+                <Text color={AppColors.light}>Pricing</Text>
+                <Text color={AppColors.light}>FAQ</Text>
               </Wrap>
             </FlexItem>
             <FlexItem flex={1}>
               <Wrap>
                 <FooterHeader color={AppColors.white}>Product</FooterHeader>
-                <Text color={AppColors.light}>Nixon App</Text>
-                <Text color={AppColors.light}>Nixon App</Text>
-                <Text color={AppColors.light}>Nixon App</Text>
-                <Text color={AppColors.light}>Nixon App</Text>
+                <Text color={AppColors.light}>About </Text>
+                <Text color={AppColors.light}>Terms </Text>
+                <Text color={AppColors.light}>Privacy Policy </Text>
+                <Text color={AppColors.light}>Contact Us</Text>
               </Wrap>
             </FlexItem>
           </FlexWrapper>

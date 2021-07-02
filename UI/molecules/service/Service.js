@@ -15,6 +15,7 @@ const Dot = styled.img`
 `;
 const ServiceName = styled.div`
   margin-top: 5px;
+  margin: 0px auto;
   h1 {
     margin: 5px;
   }

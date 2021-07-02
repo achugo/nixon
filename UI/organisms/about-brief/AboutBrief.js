@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import styled from "styled-components";
 import FlexItem from "../../../components/layout/FlexItem";
@@ -51,6 +52,8 @@ const Image = styled.img`
 const AboutDesc = styled.div`
   padding-top: 40px;
   margin-bottom: 30px;
+  max-width: 400px;
+  line-height: 1.6;
 `;
 
 const AboutBrief = () => {
@@ -81,13 +84,13 @@ const AboutBrief = () => {
                 Nixon Express Logistics, a subsidiary of Apex Nixon <br />
                 Ventures Limited, is a company operating a courier <br />{" "}
                 delivery service with head office in Port Harcourt, Rivers{" "}
-                <br /> State, and branches in neighboring cities within southern{" "}
-                <br /> Nigeria. Nixon Express Logistics operates services of{" "}
-                <br /> transporting, warehousing, and maintaining goods, and{" "}
-                <br /> plans also to establish depots...
+                State, and branches in neighboring cities within southern{" "}
+                Nigeria. Nixon Express Logistics operates services of{" "}
+                transporting, warehousing, and maintaining goods, and plans also
+                to establish depots...
               </Text>
             </AboutDesc>
-            <ArrowButton>Learn More</ArrowButton>
+            <ArrowButton link="about-us">Learn More</ArrowButton>
           </FlexItem>
         </FlexWrapper>
       </div>

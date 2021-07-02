@@ -12,12 +12,16 @@ import TextArea from "../../atoms/textarea";
 
 const Wrapper = styled.div`
   background-image: url("/assets/svg/herocurve.svg");
-  background-color: #e5e5e5;
+  //background-color: #e5e5e5;
   background-size: contain;
   background-repeat: no-repeat;
   margin-top: -10vh;
   position: relative;
   z-index: 1;
+
+  .padleft {
+    padding: 0 1em;
+  }
 
   p {
     padding: 0 1em;
@@ -41,6 +45,10 @@ const FormWrapper = styled.form`
   border-radius: 8px;
   max-width: 800px;
   margin: 0px auto;
+
+  @media screen and (max-width: 768px) {
+    padding: 0px;
+  }
 `;
 
 const Wrap = styled.div`
@@ -54,6 +62,7 @@ const Submit = styled.button`
   outline: none;
   border: none;
   padding: 1.3em 2em;
+  border-radius: 1em;
 
   &:focus {
     outline: none;
@@ -121,7 +130,9 @@ const Contactform = () => {
               disclose your personal information including to third parties.
             </Text>
           </p>
-          <Submit>Contact Sales</Submit>
+          <div className="padleft">
+            <Submit>Contact Sales</Submit>
+          </div>
         </FormWrapper>
       </div>
     </Wrapper>
