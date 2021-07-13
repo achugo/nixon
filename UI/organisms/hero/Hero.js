@@ -88,12 +88,13 @@ const Hero = () => {
         <FlexItem flex={1}>
           <div className="padLeftContainer">
             <HeroText>
-              Fast & accurate <br /> delivery services
+              Limitless, Timeless <br /> Services Everytime.
             </HeroText>
             <SubCaption>
               <Text>
-                Manages on-demand and scheduled deliveries <br />
-                for a variety of user segments.
+                We offer a wide range of mobility services that <br /> includes
+                transporting, warehousing, and <br /> maintaining goods for
+                customers.
               </Text>
             </SubCaption>
             <AppDownload>

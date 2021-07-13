@@ -4,7 +4,6 @@ import FlexItem from "../../../components/layout/FlexItem";
 import FlexWrapper from "../../../components/layout/FlexWrapper";
 import { AppColors } from "../../../config/AppColor";
 import { AppFont } from "../../../config/AppFont";
-import Header from "../../atoms/Header";
 import Input from "../../atoms/Input";
 import SubHeader from "../../atoms/SubHeader";
 import Text from "../../atoms/Text";

@@ -56,8 +56,13 @@ const WhyChoseUs = () => {
               <SvgWrap>
                 <Image src="/assets/svg/responsiveness.svg" alt="responsive" />
               </SvgWrap>
-              <SubHeader color={AppColors.black}>Responsiveness</SubHeader>
-              <Text color={AppColors.ash}>Flexible delivery schedule</Text>
+              <SubHeader color={AppColors.black}>
+                Timely Delivery Services{" "}
+              </SubHeader>
+              <Text color={AppColors.ash}>
+                Delivery Services with only one thing in mind… the satisfaction
+                of our customers.
+              </Text>
             </Wrap>
           </FlexItem>
           <FlexItem flex={1}>
@@ -66,7 +71,11 @@ const WhyChoseUs = () => {
                 <Image src="/assets/svg/convenience.svg" alt="responsive" />
               </SvgWrap>
               <SubHeader color={AppColors.black}>Convenience</SubHeader>
-              <Text color={AppColors.ash}>Cost-effectiveness</Text>
+              <Text color={AppColors.ash}>
+                All you need to do is to package your parcel, drop it off in any
+                of our Hubs or Branches and wait for a successfully delivered
+                shipment confirmation.
+              </Text>
             </Wrap>
           </FlexItem>
           <FlexItem flex={1}>
@@ -76,7 +85,8 @@ const WhyChoseUs = () => {
               </SvgWrap>
               <SubHeader color={AppColors.black}>Assurance</SubHeader>
               <Text color={AppColors.ash}>
-                Insurance cover for personnel & cargo
+                We treat each customer like the only customer; we value our
+                reputation in assuring the safety of your packages
               </Text>
             </Wrap>
           </FlexItem>
@@ -87,7 +97,8 @@ const WhyChoseUs = () => {
               </SvgWrap>
               <SubHeader color={AppColors.black}>Responsiveness</SubHeader>
               <Text color={AppColors.ash}>
-                Our value propositions as top-rated logistics operators are:
+                Our ultimate goal is to make your delivery seamless, fast,
+                trackable and affordable while keeping quality in check.
               </Text>
             </Wrap>
           </FlexItem>

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import styled from "styled-components";
 import { AppColors } from "../../config/AppColor";
@@ -75,16 +76,24 @@ const Footer = () => {
                 <Text color={AppColors.light}>Nixon App</Text>
                 <Text color={AppColors.light}>Services</Text>
                 <Text color={AppColors.light}>Pricing</Text>
-                <Text color={AppColors.light}>FAQ</Text>
+                <Text color={AppColors.light}>
+                  <Link href="/contact">FAQ</Link>
+                </Text>
               </Wrap>
             </FlexItem>
             <FlexItem flex={1}>
               <Wrap>
                 <FooterHeader color={AppColors.white}>Product</FooterHeader>
-                <Text color={AppColors.light}>About </Text>
+                <Text color={AppColors.light}>
+                  <Link href="/about">About</Link>
+                </Text>
                 <Text color={AppColors.light}>Terms </Text>
-                <Text color={AppColors.light}>Privacy Policy </Text>
-                <Text color={AppColors.light}>Contact Us</Text>
+                <Text color={AppColors.light}>
+                  <Link href="/privacy">Privacy Policy</Link>
+                </Text>
+                <Text color={AppColors.light}>
+                  <Link href="/contact">Contact Us</Link>
+                </Text>
               </Wrap>
             </FlexItem>
           </FlexWrapper>

@@ -4,10 +4,10 @@ import { AppFont } from "../../config/AppFont";
 
 const Span = styled.h1`
   font-family: ${AppFont.BOLD};
-  font-size: 50px;
+  font-size: 45px;
 
   @media screen and (min-width: 1600px) {
-    font-size: 70px;
+    font-size: 60px;
   }
 
   @media screen and (max-width: 768px) {
