@@ -19,6 +19,12 @@ const Wrapper = styled.div`
   position: relative;
   z-index: 1;
   padding-top: 15vh;
+
+  p {
+    font-family: ${AppFont.REGULAR};
+    font-size: 18px;
+    color: ${AppColors.ash};
+  }
 `;
 
 const Privacy = () => {
@@ -32,38 +38,32 @@ const Privacy = () => {
           to protecting the privacy and security of any identifiable business
           information you provide us
         </p>
-
         <p>
           Business Information includes information that can be linked to a
           specific individual or entity, such as a postal address, phone number
           or email address.
         </p>
-
         <p>
           This Privacy Policy is in accordance with commonly accepted privacy
           principles and best practices among global regulatory bodies. This
           Privacy Policy should be read in conjunction with Company’s Terms and
           Conditions of Use.
         </p>
-
         <p>
           NEL reserves the right to modify or amend this Privacy Policy at any
           time and for any reason, and such modifications will be effective
           immediately upon posting the modified Privacy Policy to the company’s
           website.
         </p>
-
         <p>
           Any material changes to this Privacy Policy will be posted prior to
           implementation. Questions regarding this policy should be emailed to
-          info@nixonexpress.com.
+          <a href="mailto:info@nixonexpress.com">info@nixonexpress.com.</a>
         </p>
-
         <p>
           Additional terms and conditions relating to all business listings and
           advertising on the Nixon Express services can be found here.
         </p>
-
         <p>
           Please read this Privacy Policy carefully before accessing or using
           any of the information and services available through NEL which
@@ -71,59 +71,52 @@ const Privacy = () => {
           Nixon Express mobile website, the Nixon Express mobile application,
           SMS service and telephone service.
         </p>
-
         <p>
           The services may be accessed in several ways, such as via the
           internet, mobile phones, fixed line phones, Personal Data Assistants
           (PDAs) and other methods.
         </p>
-
+        <b>What Information We Collect </b>{" "}
         <p>
-          What Information We Collect • Information we may hold or collect from
-          you includes: your name, telephone numbers, email addresses, business
-          name, addresses, website address, fax number, business description,
-          financial information, various other information you may wish to
-          disclose relating to your business registration, passwords to log into
-          your NEL account, reviews from users and financial information.
+          • Information we may hold or collect from you includes: your name,
+          telephone numbers, email addresses, business name, addresses, website
+          address, fax number, business description, financial information,
+          various other information you may wish to disclose relating to your
+          business registration, passwords to log into your NEL account, reviews
+          from users and financial information.
         </p>
-
         <p>
           Please note that if you are required to publish your business details
           on NEL, you may experience difficulty or delays with your listing or
           submission if you choose not to provide us with certain information.
         </p>
-
         <p>
           • Any information posted in public areas of NEL such as online notice
           boards or business listing information that you have elected to
           disclose is by its very nature public and not considered to be
           Personal Information.
         </p>
-
         <p>
           • Generally, we collect Business Information from you directly and any
           personal information you may want to share with us.
         </p>
-
         <p>
           However, in some cases we may obtain your business information through
           our partners, service providers or associates where you have given
           them permission to do so or from publicly available sources.
         </p>
-
+        <h3>Disclaimer</h3>
         <p>
-          Disclaimer NEL shall not be responsible or liable for any personal
-          information contained in information given to us through our sources.
-          If you find any information you consider personal or private which you
-          do not wish to share with the public, kindly notify us immediately or
-          within 30 days of publication of such information on our website.
+          NEL shall not be responsible or liable for any personal information
+          contained in information given to us through our sources. If you find
+          any information you consider personal or private which you do not wish
+          to share with the public, kindly notify us immediately or within 30
+          days of publication of such information on our website.
         </p>
-
         <p>
           The information shall be withdrawn within two (2) working days from
           the time of confirmed receipt of report.
         </p>
-
         <p>
           Other information we may collect When you use the Services, we record
           and log general information about your visit for statistical purposes
@@ -135,9 +128,8 @@ const Privacy = () => {
           information on the web pages visited by our customers to help us
           continue to improve our services.
         </p>
-
+        <b>Please Note...</b> <br />
         <p>
-          Please Note... <br />
           NEL will not take responsibility in any way for the use or misuse of
           any information you provide directly to businesses or any third
           parties, personal or otherwise, or any information you find through
@@ -145,39 +137,41 @@ const Privacy = () => {
           3rd party partners. Please check their relevant terms and conditions
           and privacy policies.
         </p>
-
+        <h3>How We Use Your Information</h3>
         <p>
-          How We Use Your Information <br />
           NEL uses business information mainly for the purpose of responding to
           and fulfilling your requests for the products and services listed by
           us. Information so collected may be used to:
         </p>
-
         <p>
           • Respond directly to email or SMS requests by you through the use of
-          the email address or telephone number you provide. <br />
+          the email address or telephone number you provide.
+        </p>
+        <p>
           • Send newsletters or other emails only where you have opted to
           receive them.
-          <br />
+        </p>
+        <p>
           • Respond to your questions or suggestions. We will use your Email
           address and/or telephone number to contact you when you submit a
-          question or suggestion. <br />
+          question or suggestion.{" "}
+        </p>
+        <p>
           • Help us research and improve our products and services and, <br />•
           As such we may, from time to time, contact you to let you know about
           service improvements, products or promotions that may be of interest
           to you or to ask you for feedback in the event you wish to provide it.{" "}
-          <br />
+        </p>
+        <p>
           • We may also use Business Information in an aggregate form for
           various purposes such as marketing and statistical analysis but will
-          only ever disclose compiled or completely anonymous results. <br />
+          only ever disclose compiled or completely anonymous results.
         </p>
-
         <p>
           Who We Share Your Information With <br />
           As a rule, we do not share with 3rd parties any Information that is
           not publicly available on NEL except in the following circumstances:
         </p>
-
         <p>
           • With other companies who have an agency, partnering or co-branding
           relationship with NEL but agree to protect Information to the same
@@ -194,7 +188,6 @@ const Privacy = () => {
           (such as customer fraud) or where there is a possibility of harm to
           others. <br />
         </p>
-
         <p>
           • Where your information appears in a publicly available portion of an
           advertisement or business listing published with NEL or is otherwise
@@ -204,7 +197,6 @@ const Privacy = () => {
           sure any such party uses the information for prudent and legitimate
           purposes.
         </p>
-
         <p>
           How You Can Control or Access Your Information We believe that users
           and customers should have control over the collection and use of their
@@ -224,7 +216,6 @@ const Privacy = () => {
           provide you with any underlying information that you used in
           originally supplying information to any external data source.
         </p>
-
         <p>
           Cookies Cookies are pieces of information that our web page transfers
           to your computer's hard disk for record-keeping purposes. Cookies can
@@ -247,7 +238,6 @@ const Privacy = () => {
           mean that new cookies will not be created and stored in the future.{" "}
           <br />
         </p>
-
         <p>
           Advertisers, Business Owners and Users of NEL Website <br />
           In addition to this Privacy Policy, advertisers and clients should
