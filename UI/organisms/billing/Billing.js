@@ -57,8 +57,10 @@ const Billing = () => {
               </FixedFlexItem>
               <FixedFlexItem flex={20}>
                 <Content>
-                  <span>Single cargo billing</span>: <br /> Intra-city N1,000
-                  depending on distance from <br /> Pick-off and Drop-off Point
+                  <span>Single cargo billing</span>: <br /> We offer transparent
+                  but competitive pricing <br />
+                  that is dependent on the distance between <br /> pick-off and
+                  drop-off points.
                 </Content>
               </FixedFlexItem>
             </FlexWrapper>

@@ -121,9 +121,8 @@ const Services = () => {
                    "
                     bracket={`(Customized Packages)`}
                   >
-                    To have your items delivered the <br /> same day, contact us
-                    before 3 PM <br /> Mondays to Saturdays to schedule <br />
-                    an express pick-up.
+                    We can deliver Gifts on your behalf <br />
+                    to your friends on special occasions.
                   </Service>
                 </AlignLeft>
 

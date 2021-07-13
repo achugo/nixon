@@ -14,6 +14,7 @@ const Wrapper = styled.footer`
   background-color: ${AppColors.black};
 
   .custom {
+    max-width: 500px;
     span {
       line-height: 1.8;
     }
@@ -41,15 +42,32 @@ const Logo = styled.img`
 
 const Wrap = styled.div`
   margin-top: 80px;
+  @media screen and (min-width: 768px) {
+    margin-left: 30px;
+  }
   span {
     display: block;
     line-height: 3;
   }
 `;
 
+const Wrap1 = styled.div`
+  margin-top: 80px;
+  span {
+    display: block;
+    line-height: 1.6;
+  }
+`;
+
 const CustomFlex = styled.div`
   display: flex;
   justify-content: space-between;
+
+  img {
+    max-height: 20px;
+    margin-left: 15px;
+    cursor: pointer;
+  }
 `;
 
 const Footer = () => {
@@ -64,35 +82,46 @@ const Footer = () => {
               </LogoSection>
               <div className="custom">
                 <Text color={AppColors.light}>
-                  Nixon Express Logistics operates services of transporting,{" "}
-                  <br /> warehousing, and maintaining goods, and plans also to{" "}
-                  <br /> establish depots and associated.
+                  Nixon Express Logistics operates business of packaging,
+                  transporting and delivery of goods within Greater Port
+                  Harcourt Metropolis, and plans to open additional hubs in
+                  other cities with Southeast and South-south Nigeria.,
                 </Text>
               </div>
             </FlexItem>
-            <FlexItem flex={1}>
-              <Wrap>
-                <FooterHeader color={AppColors.white}>Product</FooterHeader>
-                <Text color={AppColors.light}>Nixon App</Text>
-                <Text color={AppColors.light}>Services</Text>
-                <Text color={AppColors.light}>Pricing</Text>
+
+            <FlexItem flex={2}>
+              <Wrap1>
+                <FooterHeader color={AppColors.white}>Contact</FooterHeader>
                 <Text color={AppColors.light}>
-                  <Link href="/contact">FAQ</Link>
+                  Suite #306, Emthel Mall, Plot 6c Trans Amadi Industrial Layout
+                  Oginigba Junction, Port Harcourt, Rivers State - Nigeria
                 </Text>
-              </Wrap>
+                <br />
+                <Text color={AppColors.light}>
+                  {" "}
+                  nixonexpresslogistics@gmail.com
+                </Text>
+                <br />
+                <Text color={AppColors.light}>
+                  09134446966, 08180044966, 09120117222
+                </Text>
+              </Wrap1>
             </FlexItem>
             <FlexItem flex={1}>
-              <Wrap>
+              <Wrap className="block">
                 <FooterHeader color={AppColors.white}>Product</FooterHeader>
                 <Text color={AppColors.light}>
                   <Link href="/about">About</Link>
                 </Text>
-                <Text color={AppColors.light}>Terms </Text>
                 <Text color={AppColors.light}>
-                  <Link href="/privacy">Privacy Policy</Link>
+                  <Link href="/services">Services</Link>
                 </Text>
                 <Text color={AppColors.light}>
-                  <Link href="/contact">Contact Us</Link>
+                  <Link href="/contact">FAQ</Link>
+                </Text>
+                <Text color={AppColors.light}>
+                  <Link href="/privacy">Privacy Policy</Link>
                 </Text>
               </Wrap>
             </FlexItem>
@@ -105,7 +134,31 @@ const Footer = () => {
                 Copyright © 2021. Nixon Express Logistics
               </Text>
             </div>
-            <div>socials</div>
+            <div>
+              <a
+                href="https://facebook.com/nixonXpress"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Logo src="assets/svg/facebook.svg" alt="facebook" />
+              </a>
+
+              <a
+                href="https://instagram.com/nixonXpress"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Logo src="assets/svg/instagram.svg" alt="instagram" />
+              </a>
+
+              <a
+                href="https://twitter.com/nixonXpress"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Logo src="assets/svg/twitter.svg" alt="twitter" />
+              </a>
+            </div>
           </CustomFlex>
         </Bottom>
       </div>

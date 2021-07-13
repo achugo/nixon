@@ -162,7 +162,7 @@ export default function Nav() {
               </p>
               <p>
                 {" "}
-                <Link href="/contact">Contact</Link>
+                <Link href="/contact">Contact Us</Link>
               </p>
             </div>
           </div>

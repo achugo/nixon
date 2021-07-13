@@ -14,10 +14,12 @@ const ImageWrap = styled.div`
   overflow: hidden;
   top: 12px;
   position: relative;
+  max-width: 100px;
 `;
 
 const Image = styled.img`
   position: relative;
+  max-width: 100%;
 `;
 
 const Wrap = styled.div`

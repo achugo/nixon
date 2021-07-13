@@ -42,18 +42,14 @@ const Aboutsection3 = () => {
           <ContentSection>
             <Header>Our Mission</Header>
             <p>
-              Listing more than one? Enjoy full control over your
-              advertisements, manage your entire space. Once you list a property
-              on our platform, you only have to sit back and watch the world
-              want it.
-            </p>
-            <p>
-              If you’re looking for a real estate service that will operate as
-              an extension to your family - stay with us and see!
+              To establish a world-class courier and delivery services company
+              that provides a wide range of courier and delivery services at
+              affordable prices to the residents of Port Harcourt metropolis,
+              Owerri and other major cities in SE and SS regions of Nigeria.
             </p>
           </ContentSection>
           <ContentSection>
-            <Header>Our Mission</Header>
+            <Header>Our Vision</Header>
             <p>
               Listing more than one? Enjoy full control over your
               advertisements, manage your entire space. Once you list a property

@@ -45,7 +45,7 @@ const WhyChoseUs = () => {
     <Wrapper>
       <div className="container">
         <HeaderSection>
-          <Header color={AppColors.black}>Why Chose Nixon Express</Header>
+          <Header color={AppColors.black}>Why Choose Nixon Express</Header>
           <Text color={AppColors.ash}>
             Our value propositions as top-rated logistics operators are:
           </Text>
@@ -72,9 +72,8 @@ const WhyChoseUs = () => {
               </SvgWrap>
               <SubHeader color={AppColors.black}>Convenience</SubHeader>
               <Text color={AppColors.ash}>
-                All you need to do is to package your parcel, drop it off in any
-                of our Hubs or Branches and wait for a successfully delivered
-                shipment confirmation.
+                All you need to do is to prepare your parcel and contact us for
+                pick-up. You can also drop it off at our office or nearest hub.
               </Text>
             </Wrap>
           </FlexItem>

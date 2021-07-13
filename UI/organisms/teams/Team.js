@@ -47,7 +47,7 @@ const Team = () => {
         <FlexWrapper>
           <FlexItem flex={1}>
             <div className="padright">
-              <TeamMember photo="/assets/png/shape.png" name="Njideka">
+              <TeamMember photo="/assets/njideka.jpg" name="Njideka">
                 <Text color={AppColors.ash}>
                   is an energetic Economics graduate with strong
                   entrepreneurship and team-building skills, with sales and
@@ -59,7 +59,7 @@ const Team = () => {
           </FlexItem>
           <FlexItem flex={1}>
             <div className="padleft">
-              <TeamMember photo="/assets/png/shape.png" name="Chioma">
+              <TeamMember photo="/assets/chioma.jpg" name="Chioma">
                 <Text color={AppColors.ash}>
                   is an astute HR Professional, a certified competence assessor,
                   recruiter, training expert, and counselor with over 15 yrs
@@ -81,7 +81,7 @@ const Team = () => {
         <FlexWrapper>
           <FlexItem flex={1}>
             <div className="padright">
-              <TeamMember photo="/assets/png/shape.png" name="Ebera">
+              <TeamMember photo="/assets/ebere.gif" name="Ebere">
                 <Text color={AppColors.ash}>
                   is an engineer with nearly 30 yrs of cognate experience in the
                   oil and gas industry (ex-Shell), with previous roles in skills
@@ -95,7 +95,7 @@ const Team = () => {
           </FlexItem>
           <FlexItem flex={1}>
             <div className="padleft">
-              <TeamMember photo="/assets/png/shape.png" name="Meg">
+              <TeamMember photo="/assets/magret.jpeg" name="Meg">
                 <Text color={AppColors.ash}>
                   is a solicitor, public servant, publisher and experienced
                   administrator. She is the Acting GM of Imo Newspapers Owerri,
