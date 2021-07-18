@@ -9,7 +9,6 @@ import FlexWrapper from "../layout/FlexWrapper";
 
 const Wrapper = styled.footer`
   margin-top: 10em;
-  position: relative;
   padding: 5em 0;
   background-color: ${AppColors.black};
 
