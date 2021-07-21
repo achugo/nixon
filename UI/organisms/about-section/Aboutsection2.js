@@ -19,6 +19,8 @@ const WrapImage = styled.div`
 
 const Image = styled.img`
   max-width: 100%;
+  max-height: 600px;
+  border-radius: 15px;
 `;
 
 const ContentSection = styled.div`
@@ -49,7 +51,7 @@ const Aboutsection2 = () => {
       <FlexWrapper>
         <FlexItem flex={5}>
           <WrapImage>
-            <Image src="/assets/png/book-man.png" alt="man holding book" />
+            <Image src="/assets/rider.jpeg" alt="rider" />
           </WrapImage>
         </FlexItem>
         <FlexItem flex={7}>
@@ -62,6 +64,8 @@ const Aboutsection2 = () => {
               distribution of various goods and effects, and leveraging
               transportation facilities and internet technology.
             </p>
+
+            <Header>Our Core Values are:</Header>
             <Wrap>
               <FlexWrapper>
                 <FixedFlexItem flex={1}>
@@ -69,9 +73,9 @@ const Aboutsection2 = () => {
                 </FixedFlexItem>
                 <FixedFlexItem flex={20}>
                   <Content>
-                    Operate services of transporting, warehousing, cargo
-                    handling and associated facilities in different cities
-                    within regions of operation.
+                    <b>Honesty & Integrity:</b> We treat each customer as only a
+                    customer; we value our reputation in assuring you a safe
+                    delivery.
                   </Content>
                 </FixedFlexItem>
               </FlexWrapper>
@@ -83,9 +87,23 @@ const Aboutsection2 = () => {
                 </FixedFlexItem>
                 <FixedFlexItem flex={20}>
                   <Content>
-                    Operate services of transporting, warehousing, cargo
-                    handling and associated facilities in different cities
-                    within regions of operation.
+                    <b>Customer-focus:</b> We are focused on exceeding customer
+                    expectations through competitive pricing and just-in-time
+                    delivery.
+                  </Content>
+                </FixedFlexItem>
+              </FlexWrapper>
+            </Wrap>
+            <Wrap>
+              <FlexWrapper>
+                <FixedFlexItem flex={1}>
+                  <Icon>✓</Icon>
+                </FixedFlexItem>
+                <FixedFlexItem flex={20}>
+                  <Content>
+                    <b>Teamwork:</b> We imbue a sense of urgency to pick up and
+                    deliver important packages within 24 hours within a local.
+                    delivery.
                   </Content>
                 </FixedFlexItem>
               </FlexWrapper>

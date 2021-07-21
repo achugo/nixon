@@ -40,9 +40,8 @@ const Aboutsection1 = () => {
           <FlexItem flex={5}>
             <TinyHeading>ABOUT US</TinyHeading>
             <Header>
-              We provide enterprises <br />
-              with innovative <br /> technology for small to <br /> space
-              enterprises
+              We provide innovative <br /> solutions to power small <br /> and
+              medium-scale enterprises.
             </Header>
           </FlexItem>
           <FlexItem flex={7}>

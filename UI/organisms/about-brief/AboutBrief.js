@@ -46,7 +46,9 @@ const WrapImage = styled.div`
 `;
 
 const Image = styled.img`
-  max-width: 100%;
+  max-width: 300px;
+  border-radius: 15px;
+  overflow: hidden;
 `;
 
 const AboutDesc = styled.div`
@@ -65,13 +67,13 @@ const AboutBrief = () => {
             <WrapImage>
               <Image
                 className="firstImage"
-                src="/assets/png/delivery-man.png"
-                alt="delivery man"
+                src="/assets/woman.jpg"
+                alt="delivery woman"
               />
               <Image
                 className="secondImage"
-                src="/assets/png/delivery-man2.png"
-                alt="delivery man"
+                src="/assets/delivery-woman.jpg"
+                alt="woman"
               />
             </WrapImage>
           </FlexItem>
