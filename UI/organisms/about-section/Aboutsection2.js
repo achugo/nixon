@@ -19,6 +19,8 @@ const WrapImage = styled.div`
 
 const Image = styled.img`
   max-width: 100%;
+  max-height: 600px;
+  border-radius: 15px;
 `;
 
 const ContentSection = styled.div`
@@ -49,7 +51,7 @@ const Aboutsection2 = () => {
       <FlexWrapper>
         <FlexItem flex={5}>
           <WrapImage>
-            <Image src="/assets/png/book-man.png" alt="man holding book" />
+            <Image src="/assets/rider.jpeg" alt="rider" />
           </WrapImage>
         </FlexItem>
         <FlexItem flex={7}>

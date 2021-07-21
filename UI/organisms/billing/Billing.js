@@ -41,7 +41,7 @@ const WrapImage = styled.div`
 `;
 const Image = styled.img`
   position: relative;
-  max-width: 100%;
+  max-width: 350px;
 `;
 
 const Billing = () => {
@@ -83,7 +83,7 @@ const Billing = () => {
         </FlexItem>
         <FlexItem flex={1}>
           <WrapImage>
-            <Image src="/assets/png/man-holding-box.png" alt="hold box" />
+            <Image src="/assets/bike.jpeg" alt="Bike" />
           </WrapImage>
         </FlexItem>
       </FlexWrapper>

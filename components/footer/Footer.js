@@ -63,7 +63,7 @@ const CustomFlex = styled.div`
   justify-content: space-between;
 
   img {
-    max-height: 20px;
+    max-height: 25px;
     margin-left: 15px;
     cursor: pointer;
   }
