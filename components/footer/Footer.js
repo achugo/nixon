@@ -62,6 +62,15 @@ const CustomFlex = styled.div`
   display: flex;
   justify-content: space-between;
 
+  @media screen and (max-width: 768px) {
+    text-align: center;
+    display: block;
+
+    div {
+      margin: 20px 0;
+    }
+  }
+
   img {
     max-height: 25px;
     margin-left: 15px;
