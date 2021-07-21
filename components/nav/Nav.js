@@ -114,7 +114,7 @@ export default function Nav() {
   return (
     <Wrapper>
       <div className="container">
-        <Link href="/" passHref={true}>
+        <Link href="/" passhref={true}>
           <Logo src="/assets/svg/logo.svg" alt="nixon logo" />
         </Link>
 
@@ -141,7 +141,7 @@ export default function Nav() {
         <div>
           <div className={`${isOpen ? "show" : "hide"} mobilenav`}>
             <div>
-              <Link href="/" passHref>
+              <Link href="/" passhref>
                 <Logo
                   className="ham"
                   src="/assets/svg/logo.svg"
