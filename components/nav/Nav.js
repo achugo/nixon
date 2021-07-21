@@ -8,6 +8,13 @@ import { Twirl as Hamburger } from "hamburger-react";
 const Wrapper = styled.nav`
   position: relative;
   padding: 30px 0;
+  @media screen and (max-width: 768px) {
+    position: fixed;
+    width: 100%;
+    padding: 30px 0 20px 0;
+    background-color: ${AppColors.white};
+    z-index: 200;
+  }
 
   .hamburger {
     position: relative;
@@ -28,7 +35,7 @@ const Wrapper = styled.nav`
   .mobilenav {
     width: 100%;
     height: fit-content;
-    position: absolute;
+    position: fixed;
     background-color: ${AppColors.white};
     padding: 50px 100px;
     position: absolute;
@@ -36,6 +43,7 @@ const Wrapper = styled.nav`
     left: -100%;
     text-align: left;
     top: 0;
+    overflow: hidden;
     height: 100vh;
     transition: linear all 0.3s;
     /* opacity: 0.5; */
