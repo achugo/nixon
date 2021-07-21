@@ -11,7 +11,7 @@ const Span = styled.h1`
   }
 
   @media screen and (max-width: 768px) {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 `;
 
