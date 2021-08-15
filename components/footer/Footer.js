@@ -52,6 +52,7 @@ const Wrap = styled.div`
 
 const Wrap1 = styled.div`
   margin-top: 80px;
+  margin-left: 20px;
   span {
     display: block;
     line-height: 1.6;
@@ -84,7 +85,7 @@ const Footer = () => {
       <div className="container">
         <Top>
           <FlexWrapper>
-            <FlexItem flex={6}>
+            <FlexItem flex={4}>
               <LogoSection>
                 <Logo src="/assets/svg/logo.svg" alt="logo" />
               </LogoSection>
@@ -96,6 +97,29 @@ const Footer = () => {
                   other cities with Southeast and South-south Nigeria.,
                 </Text>
               </div>
+            </FlexItem>
+
+            <FlexItem flex={2}>
+              <Wrap1>
+                <FooterHeader color={AppColors.white}>Address</FooterHeader>
+                <Text color={AppColors.light}>
+                Suite 101 Graceland Shopping Mall,
+Egbada New Road,
+Egbada, Owerri - Imo State
+
+
+                </Text>
+                <br />
+                <Text color={AppColors.light}>
+                Phone lines:
+                </Text>
+                <br />
+                <Text color={AppColors.light}>
+               
+08101432265
+09125437715
+                </Text>
+              </Wrap1>
             </FlexItem>
 
             <FlexItem flex={2}>
