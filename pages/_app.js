@@ -24,7 +24,7 @@ const theme = {
   },
 };
 
-function MyApp({ Component, pageProps }) {
+function App({ Component, pageProps }) {
   return (
     <>
       <Head>
@@ -58,4 +58,4 @@ Services Everytime."
   );
 }
 
-export default MyApp;
+export default App;
