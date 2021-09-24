@@ -103,22 +103,13 @@ const Footer = () => {
               <Wrap1>
                 <FooterHeader color={AppColors.white}>Address</FooterHeader>
                 <Text color={AppColors.light}>
-                Suite 101 Graceland Shopping Mall,
-Egbada New Road,
-Egbada, Owerri - Imo State
-
-
+                  Suite 101 Graceland Shopping Mall, Egbada New Road, Egbada,
+                  Owerri - Imo State
                 </Text>
                 <br />
-                <Text color={AppColors.light}>
-                Phone lines:
-                </Text>
+                <Text color={AppColors.light}>Phone lines:</Text>
                 <br />
-                <Text color={AppColors.light}>
-               
-08101432265
-09125437715
-                </Text>
+                <Text color={AppColors.light}>08101432265 09125437715</Text>
               </Wrap1>
             </FlexItem>
 
@@ -135,9 +126,7 @@ Egbada, Owerri - Imo State
                   nixonexpresslogistics@gmail.com
                 </Text>
                 <br />
-                <Text color={AppColors.light}>
-                  09134446966, 08180044966, 09120117222
-                </Text>
+                <Text color={AppColors.light}>07069663058, 09127537665</Text>
               </Wrap1>
             </FlexItem>
             <FlexItem flex={1}>

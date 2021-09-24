@@ -159,7 +159,10 @@ const Faq = () => {
             <ContactBox>
               <Wrap>
                 <Image src="/assets/svg/phone.svg" alt="phone" />
-                <h4> <a href="tel:+2349134446966">09134446966</a> </h4>
+                <h4>
+                  {" "}
+                  <a href="tel:+2347069663058">07069663058</a>{" "}
+                </h4>
                 <Text color={AppColors.ash}>We are happy to help</Text>
               </Wrap>
             </ContactBox>
@@ -170,9 +173,10 @@ const Faq = () => {
                 <Image src="/assets/svg/email.svg" alt="email" />
                 <h4>nixonexpresslogistics@gmail.com</h4>
                 <a href="mailto:nixonexpresslogistics@gmail.com">
-                <Text color={AppColors.ash}>nixonexpresslogistics@gmail.com</Text>
-                  </a>
-                
+                  <Text color={AppColors.ash}>
+                    nixonexpresslogistics@gmail.com
+                  </Text>
+                </a>
               </Wrap>
             </ContactBox>
           </FlexItem>
